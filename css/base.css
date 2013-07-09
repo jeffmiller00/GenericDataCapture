@@ -1,0 +1,145 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 12px;
+	font-family: Arial,sans-serif;
+	vertical-align: baseline;
+}
+
+:focus {
+	outline: 0;
+}
+
+body {
+	line-height: 18px;
+	color: #456;
+	background: #c2ccd9 url(../images/body_bg.png) repeat-x;
+}
+
+h1 { 
+	color: #c30;
+	font-size: 24px; 
+	line-height: 36px;
+	margin-bottom: 18px; 
+}
+
+h2 { 
+	color: #393;
+	font-size: 18px; 
+	line-height: 18px; 
+	margin-bottom: 18px;
+}
+
+h3 { 
+	color: #456;
+	font-style: italic;	
+	font-size: 12px; 
+	line-height: 18px; 
+}
+
+p {
+	margin-bottom: 18px;
+}
+
+ol, ul {
+	list-style: none;
+	margin-bottom: 18px;
+}
+
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+	padding: 1px 3px;
+}
+
+th {
+	color: #789;
+	background: #eee;
+	border-right: 1px solid #ddd;
+}
+
+th a {
+	color: #456;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+th a:hover {
+	text-decoration: underline;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+label {
+	display: block;
+    padding-left: 15px;
+}
+
+#main_column a, #main_column a:active, #support-nav a, #support-nav:active {
+	text-decoration: none;
+	font-weight: bold;
+	color: #368;
+	outline: none;
+}
+
+#sidebar a, #sidebar a:active  {
+	text-decoration: none;
+	font-weight: bold;
+	color: #368;
+	outline: none;
+}
+
+#main_column a:visited, #sidebar a:visited, #support-nav:visited {
+	color: #935;
+}
+
+#main_column a:hover, #support-nav a:hover {
+	color: #47a;
+	text-decoration: underline;
+}
+
+.left { 
+	float: left; 
+	margin: 0 18px 18px 0; 
+}
+
+.left_sidebar { 
+	float: left;
+	clear: left; 
+	margin: 3px 18px 0 24px; 
+}
+
+.right { 
+	float: right; 
+	margin: 0 0 18px 18px; 
+}
+
+.hide {
+	display: none;
+}
+
+strong {font-weight:bold;}
+
+address {margin-bottom: 36px;}
